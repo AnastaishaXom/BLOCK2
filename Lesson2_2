@@ -1,5 +1,102 @@
-public static void printThreeWords(){
+import java.util.Arrays;
+public class Lesson2_2{
+    public static void printThreeWords(){
     System.out.println ("Orange");
-    System.out.println ("Banana,");
+    System.out.println ("Banana");
     System.out.println ("Apple");
+    }
+
+    public static void checkSumSign(){
+        int a=-10;
+        int b=5;
+
+        if(a+b>=0){
+            System.out.println ("Сумма положительная");
+        } 
+        else{
+            System.out.println ("Сумма отрицательная");
+        }
+
+    }
+
+    public static void printColor(){
+        int value=100;
+
+        if(value<=0){
+            System.out.println ("Красный");
+        }
+        else if(value>0 && value<=100){
+            System.out.println ("Желтый");
+        }
+        else if(value>100){
+            System.out.println ("Зеленый");
+        }
+    }
+
+    public static void compareNumbers(){
+        int a=7;
+        int b=11;
+
+        if(a>=b){
+            System.out.println ("a >= b");
+        }
+        else{
+            System.out.println ("a < b");
+        }
+    }
+
+    public static boolean sumNum(int a,int b){
+        boolean c=(a+b>=10 && a+b<=20);
+
+        System.out.println (c);
+        return c;
+    }
+
+    public static void posNegNumb(int a){
+        if(a>=0){
+            System.out.println ("'"+ a + "'"+" -положительное число");
+        }
+        else{
+            System.out.println ("'"+ a + "'"+" -отрицательное число");
+        }
+    }
+
+    public static boolean boolPosNegNumb(int a){
+        boolean c=(a>=0);
+
+        System.out.println ("'"+ a + "'"+" -" + c);
+        return c;
+    }
+
+    public static void printString(String a,int i){
+        while(i>0){
+            System.out.println (a);
+            i--;
+        }
+    }
+
+    public static boolean visokosnYear(int a){
+        boolean c=(a%4==0 && a%100!=0 || a%400==0 && a%100!=0);
+
+        System.out.println (c);
+        return  c;
+
+    }
+
+    public static void changeMassiv(){
+        int [] mas={0,1,1,1,1,1,1,1,1,0};
+        System.out.println (Arrays.toString(mas));
+
+        for(int i=0;i<=9;i++){
+            if(mas[i]==0){
+                mas[i]=1;
+            }
+            else{
+                mas[i]=0;
+            }
+        }
+        System.out.println (Arrays.toString(mas));
+
+    }
 }
+
