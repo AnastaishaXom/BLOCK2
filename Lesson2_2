@@ -1,5 +1,25 @@
 import java.util.Arrays;
+
 public class Lesson2_2{
+
+    public static void main(String[] args){
+       /*Lesson2_2.printThreeWords();
+       Lesson2_2.checkSumSign();
+       Lesson2_2.printColor();
+       Lesson2_2.compareNumbers();
+       Lesson2_2.sumNum(10,1);
+       Lesson2_2.posNegNumb(-20);
+       Lesson2_2.boolPosNegNumb(0);
+       Lesson2_2.printString("Hi",5);
+       Lesson2_2.visokosnYear(2024);
+       Lesson2_2.changeMassiv();
+       Lesson2_2.writeMassiv();
+       Lesson2_2.multMassiv();
+       Lesson2_2.diagMassiv();
+       Lesson2_2.newMassiv(10,5);
+       */
+    }
+
     public static void printThreeWords(){
     System.out.println ("Orange");
     System.out.println ("Banana");
@@ -164,4 +184,3 @@ public class Lesson2_2{
     }
 
 }
-
