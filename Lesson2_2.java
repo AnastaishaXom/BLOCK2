@@ -3,22 +3,49 @@ import java.util.Arrays;
 public class Lesson2_2{
 
     public static void main(String[] args){
-       /*Lesson2_2.printThreeWords();
+       Lesson2_2.printThreeWords();
+       System.out.println("");
+
        Lesson2_2.checkSumSign();
+       System.out.println("");
+
        Lesson2_2.printColor();
+       System.out.println("");
+
        Lesson2_2.compareNumbers();
+       System.out.println("");
+
        Lesson2_2.sumNum(10,1);
+       System.out.println("");
+
        Lesson2_2.posNegNumb(-20);
+       System.out.println("");
+
        Lesson2_2.boolPosNegNumb(0);
+       System.out.println("");
+
        Lesson2_2.printString("Hi",5);
+       System.out.println("");
+
        Lesson2_2.visokosnYear(2024);
+       System.out.println("");
+
        Lesson2_2.changeMassiv();
+       System.out.println("");
+
        Lesson2_2.writeMassiv();
+       System.out.println("");
+
        Lesson2_2.multMassiv();
+       System.out.println("");
+
        Lesson2_2.diagMassiv();
+       System.out.println("");
+
        Lesson2_2.newMassiv(10,5);
-       */
+    
     }
+
 
     public static void printThreeWords(){
     System.out.println ("Orange");
@@ -182,5 +209,8 @@ public class Lesson2_2{
         return mas;
 
     }
+
+
+    
 
 }
